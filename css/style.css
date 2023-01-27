@@ -75,7 +75,8 @@ header{
     align-items: center;
 /*     position:fixed;
     left: 0;
-    right: 0; */
+    right: 0;
+    z-index: 999; */
 }
 header nav{
     height: 100%;
@@ -134,27 +135,58 @@ main .container-big .main-info .small-col i{
     font-size: 45px;
     margin-top: 80px;
 }
+/* 
+*************
+Section - 1
+*************
+*/
+
 main .section-1{
     justify-content: center;
     margin-top: 170px;
+    
+}
+main .section-1 .sez-1-title{
+    margin-bottom: 55px;
+}
+main .section-1 .sez-1-title h2{
+    padding-bottom: 75px;
+}
+main .section-1 .sez-1-title .checbox{
+    padding-right: 30px;
 }
 
-.tbl{ 
-    border: 1px dashed black;
-    width: calc(100% / 3);
+main .section-1 .sez-1-table{
+    margin: 0 -25px;
+    flex-wrap: wrap;
+}
+
+main .section-1 .tbl h4{
+    padding: 25px 0;
+}
+
+main .section-1 .tbl .sub-info{
+    padding-top: 55px;
+}
+
+main .section-1 .tbl{ 
+    border:1px solid #d0d0d3;
+    width: calc(100% / 3 - 50px);
+    margin: 0 25px;
 
     
 }
-.tbl .sub-menu{
+main .section-1 .tbl .sub-menu{
     text-align: center;
-    border:1px solid #000;
+    padding: 10px;
+    border:1px solid #d0d0d3;
 }
 
-.sub-type .btn{
+main .section-1 .tbl .sub-type .btn{
     margin-top:55px;
-    margin-bottom: 40;
+    margin-bottom: 40px;
 }
-.sub-type{
+main .section-1 .tbl .sub-type{
     padding: 40px 25px 55px 25px;
 }
 
@@ -170,3 +202,13 @@ main .section-1 .sub-type li{
 main .section-1 .sub-type li i{
     padding-right: 10px;
 }
+
+main .section-1 .tbl .sub-type .check i{
+    color:  #0061ff;
+}
+
+main .section-1 .tbl-4{
+    flex-grow: 1;
+    margin-top: 40px;
+}
+
