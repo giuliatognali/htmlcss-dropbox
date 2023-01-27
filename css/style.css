@@ -11,7 +11,7 @@ Reset
 
 /* 
 *************
-Utility
+Utility / Common
 *************
 */
 
@@ -23,6 +23,21 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.primary-btn{
+    background-color:#0061ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+
+.container-big{
+    width: 60vw;
+}
 /* 
 *************
 Typo
@@ -33,7 +48,9 @@ body{
    font-family: 'Roboto', sans-serif; 
    color: #000;
 }
-
+h1{
+    font-size: 55px;
+}
 
 /* 
 *************
@@ -43,16 +60,54 @@ Header
 
 
 header{
-    background-color: aqua;
+    background-color: #fff;
     height: 80px;
     justify-content: space-between;
     align-items: center;
+/*     position:fixed;
+    left: 0;
+    right: 0; */
 }
-
+header nav{
+    height: 100%;
+    align-items: center;
+}
+header ul{
+    align-items: center;
+}
 header .list-nav li{
     padding: 0 20px;
 }
 
-header .list-nav >li{
-    
+
+/* 
+*************
+Main
+*************
+*/
+.jumbotron{
+    background-color:#b4d0e7 ;
+    justify-content: center;
+}
+
+main .container-big .main-title{
+    width: 100%;
+    padding: 100px 0 75px 0;
+
+}
+
+main .container-big .main-info{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+main .container-big .main-info .small-col{
+    width: 30%;
+}
+
+main .container-big .main-info .big-col{
+    width: 70%;
+}
+
+main .container-big .big-col img{
+    width: 100%;
 }
