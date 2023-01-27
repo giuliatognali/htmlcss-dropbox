@@ -1,0 +1,58 @@
+/* 
+************
+Reset
+************
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+*************
+Utility
+*************
+*/
+
+.row{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+/* 
+*************
+Typo
+*************
+*/
+
+body{
+   font-family: 'Roboto', sans-serif; 
+   color: #000;
+}
+
+
+/* 
+*************
+Header
+*************
+*/
+
+
+header{
+    background-color: aqua;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .list-nav li{
+    padding: 0 20px;
+}
+
+header .list-nav >li{
+    
+}
