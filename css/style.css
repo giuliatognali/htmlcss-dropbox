@@ -35,6 +35,11 @@ a{
     padding: 10px 15px;
 }
 
+.visible-link{
+    text-decoration: underline;
+    color: #0061ff;
+}
+
 .container-big{
     width: 60vw;
 }
@@ -135,6 +140,33 @@ main .section-1{
 }
 
 .tbl{ 
-    border: 1px solid black;
+    border: 1px dashed black;
     width: calc(100% / 3);
+
+    
+}
+.tbl .sub-menu{
+    text-align: center;
+    border:1px solid #000;
+}
+
+.sub-type .btn{
+    margin-top:55px;
+    margin-bottom: 40;
+}
+.sub-type{
+    padding: 40px 25px 55px 25px;
+}
+
+main .section-1 .sub-type hr{
+    width: 50px;
+    margin:55px 0 45px 0;
+}
+
+
+main .section-1 .sub-type li{
+    margin: 15px 0;
+}
+main .section-1 .sub-type li i{
+    padding-right: 10px;
 }
