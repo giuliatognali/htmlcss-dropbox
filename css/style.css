@@ -38,6 +38,10 @@ a{
 .container-big{
     width: 60vw;
 }
+
+.container-small{
+    width: 50%;
+}
 /* 
 *************
 Typo
@@ -90,9 +94,14 @@ Main
     justify-content: center;
 }
 
+main .jumbotron .container-big{
+    position: relative;
+    top: 70px;
+
+}
 main .container-big .main-title{
     width: 100%;
-    padding: 100px 0 75px 0;
+    padding: 50px 0 75px 0;
 
 }
 
@@ -110,4 +119,22 @@ main .container-big .main-info .big-col{
 
 main .container-big .big-col img{
     width: 100%;
+}
+
+main .container-big .main-info .small-col .btn{
+    margin: 35px 0;
+}
+
+main .container-big .main-info .small-col i{
+    font-size: 45px;
+    margin-top: 80px;
+}
+main .section-1{
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.tbl{ 
+    border: 1px solid black;
+    width: calc(100% / 3);
 }
