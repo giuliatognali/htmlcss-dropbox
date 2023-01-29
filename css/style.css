@@ -17,6 +17,7 @@ Utility / Common
 
 .row{
     display: flex;
+    justify-content: center
 }
 
 ul{
@@ -53,7 +54,6 @@ a{
 
 .container-small{
     width: 50%;
-    justify-content: center;
 }
 /* 
 *************
@@ -105,7 +105,6 @@ Main
 */
 .jumbotron{
     background-color:#b4d0e7 ;
-    justify-content: center;
 }
 
 main .jumbotron .container-big{
@@ -149,8 +148,8 @@ Section - 1
 *************
 */
 
-main .section-1{
-    justify-content: center;
+main .section-1,
+main .section-3 {
     margin-top: 170px;
     
 }
@@ -173,7 +172,7 @@ main .section-1 .tbl h4{
     padding: 25px 0;
 }
 
-main .section-1 .tbl .sub-info{
+main .section-1 .tbl .tbl-info{
     padding-top: 55px;
 }
 
@@ -184,35 +183,36 @@ main .section-1 .tbl{
 
     
 }
-main .section-1 .tbl .sub-menu{
+main .section-1 .tbl .tbl-menu{
     text-align: center;
     padding: 10px;
     border-bottom:1px solid #d0d0d3;
 }
 
-main .section-1 .tbl .sub-type .btn{
+main .section-1 .tbl .tbl-type .btn{
     margin-top:55px;
     margin-bottom: 40px;
     text-align: center;
+    width: 100%;
 }
-main .section-1 .tbl .sub-type{
+main .section-1 .tbl .tbl-type{
     padding: 40px 25px 55px 25px;
 }
 
-main .section-1 .sub-type hr{
+main .section-1 .tbl-type hr{
     width: 50px;
     margin:55px 0 45px 0;
 }
 
 
-main .section-1 .sub-type li{
+main .section-1 .tbl-type li{
     margin: 15px 0;
 }
-main .section-1 .sub-type li i{
+main .section-1 .tbl-type li i{
     padding-right: 10px;
 }
 
-main .section-1 .tbl .sub-type .check i{
+main .section-1 .tbl .tbl-type .check i{
     color:  #0061ff;
 }
 
@@ -221,13 +221,13 @@ main .section-1 .tbl-4{
     margin-top: 40px;
 }
 
+
 /* 
 *****************
 Sez - 2
 *****************
 */
 main .section-2{
-    justify-content: center;
     margin-top: 150px;
 }
 
@@ -256,6 +256,29 @@ main .section-2 .container-small .text{
 main .section-2 .container-small .text h3{
    padding-bottom: 30px; 
 }
-.container-small .text .btn{
+main .section-2 .container-small .text .btn{
     margin-top: 30px;
+}
+/* sez - 3 */
+
+/* main .section-3 .container-small{
+    flex-wrap: wrap;
+} */
+main .section-3 .container-small .sez-3-table{
+ flex-wrap: wrap;
+ margin-left: -25px;
+ margin-right: -25px;
+}
+.container-small .sez-3-table .tbl{
+    width: calc(100% / 3 - 50px);
+    margin: 15px 25px;
+}
+main .section-3 .container-small .tbl-img img{
+    width: 100%;
+    display: block;
+} 
+
+.sez-3-table .tbl-info h3{
+    padding-bottom: 40px;
+    padding-top: 15px;
 }
