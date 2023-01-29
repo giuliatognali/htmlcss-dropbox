@@ -17,7 +17,6 @@ Utility / Common
 
 .row{
     display: flex;
-    justify-content: center
 }
 
 ul{
@@ -54,6 +53,7 @@ a{
 
 .container-small{
     width: 50%;
+        justify-content: center;
 }
 /* 
 *************
@@ -81,11 +81,10 @@ header{
     height: 80px;
     justify-content: space-between;
     align-items: center;
-/*     position:fixed;
+    position:fixed;
     left: 0;
     right: 0;
-    z-index: 999; */
-}
+    z-index: 999;}
 header nav{
     height: 100%;
     align-items: center;
@@ -104,7 +103,8 @@ Main
 *************
 */
 .jumbotron{
-    background-color:#b4d0e7 ;
+    background-color:#b4d0e7;
+        justify-content: center;
 }
 
 main .jumbotron .container-big{
@@ -114,7 +114,7 @@ main .jumbotron .container-big{
 }
 main .container-big .main-title{
     width: 100%;
-    padding: 50px 0 75px 0;
+    padding: 130px 0 75px 0;
 
 }
 
@@ -151,6 +151,7 @@ Section - 1
 main .section-1,
 main .section-3 {
     margin-top: 170px;
+        justify-content: center;
     
 }
 main .section-1 .sez-1-title{
@@ -229,6 +230,7 @@ Sez - 2
 */
 main .section-2{
     margin-top: 150px;
+        justify-content: center;
 }
 
 main .section-2 .container-small{
