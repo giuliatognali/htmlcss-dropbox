@@ -3,7 +3,7 @@
 Reset
 ************
  */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,63 +15,69 @@ Utility / Common
 *************
 */
 
-.row{
+.row {
     display: flex;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
-.btn{    
+
+.btn {
     border: none;
     padding: 10px 15px;
 
 }
-.primary-btn{
-    background-color:#0061ff;
+
+.primary-btn {
+    background-color: #0061ff;
     color: white;
 }
 
-.secondary-btn{
+.secondary-btn {
     background-color: white;
     color: black;
     border: 1px solid #000;
 }
-.visible-link{
+
+.visible-link {
     text-decoration: underline;
     color: #0061ff;
 }
 
-.container-big{
+.container-big {
     width: 60vw;
 }
 
-.container-small{
+.container-small {
     width: 50%;
-        justify-content: center;
+    justify-content: center;
 }
+
 /* 
 *************
 Typo
 *************
 */
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
-   color: #000;
+    color: #000;
 }
-h1{
+
+h1 {
     font-size: 77px;
 }
 
-h2{
+h2 {
     font-size: 40px;
 }
+
 /* 
 *************
 Header
@@ -79,38 +85,42 @@ Header
 */
 
 
-header{
+header {
     background-color: #fff;
     height: 80px;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 1px 2px rgb(201, 201, 201);
-    position:fixed;
+    position: fixed;
     left: 0;
     right: 0;
-    top:0;
-    z-index: 999;}
-    
-header nav{
+    top: 0;
+    z-index: 999;
+}
+
+header nav {
     height: 100%;
     align-items: center;
 }
-header ul{
-    align-items: center;
-    height: 100%;}
 
-header .list-nav li{
+header ul {
+    align-items: center;
+    height: 100%;
+}
+
+header .list-nav li {
     display: flex;
     align-items: center;
-    
+
     height: 100%;
     padding: 0 20px;
 }
-header .list-nav li img{
+
+header .list-nav li img {
     width: 100%;
 }
 
-header .list-nav li:hover{
+header .list-nav li:hover {
     border-bottom: 1px solid black;
 }
 
@@ -120,47 +130,50 @@ header .list-nav li:hover{
 Main
 *************
 */
-.jumbotron{
-    background-color:#b4d0e7;
-        justify-content: center;
-        margin-top: 80px;
+.jumbotron {
+    background-color: #b4d0e7;
+    justify-content: center;
+    margin-top: 80px;
 }
 
-main .jumbotron .container-big{
+main .jumbotron .container-big {
     position: relative;
     top: 70px;
 
 }
-main .container-big .main-title{
+
+main .container-big .main-title {
     width: 100%;
     padding: 50px 0 75px 0;
 
 }
 
-main .container-big .main-info{
+main .container-big .main-info {
     justify-content: space-between;
     align-items: flex-start;
 }
-main .container-big .main-info .small-col{
+
+main .container-big .main-info .small-col {
     width: 30%;
 }
 
-main .container-big .main-info .big-col{
+main .container-big .main-info .big-col {
     width: 70%;
 }
 
-main .container-big .big-col img{
+main .container-big .big-col img {
     width: 100%;
 }
 
-main .container-big .main-info .small-col .btn{
+main .container-big .main-info .small-col .btn {
     margin: 35px 0;
 }
 
-main .container-big .main-info .small-col i{
+main .container-big .main-info .small-col i {
     font-size: 45px;
     margin-top: 80px;
 }
+
 /* 
 *************
 Section - 1
@@ -170,76 +183,103 @@ Section - 1
 main .section-1,
 main .section-3 {
     margin-top: 170px;
-        justify-content: center;
-    
+    justify-content: center;
+
 }
-main .section-1 .sez-1-title{
+
+main .section-1 .sez-1-title {
     margin-bottom: 55px;
 }
-main .section-1 .sez-1-title h2{
+
+main .section-1 .sez-1-title h2 {
     padding-bottom: 75px;
 }
-main .section-1 .sez-1-title .checbox{
+
+main .section-1 .sez-1-title .checbox {
     padding-right: 30px;
 }
 
-main .section-1 .sez-1-table{
+main .section-1 .sez-1-table {
     margin: 0 -25px;
     flex-wrap: wrap;
 }
 
-main .section-1 .tbl h4{
+main .section-1 .tbl h4 {
     padding: 25px 0;
 }
 
-main .section-1 .tbl .tbl-info{
+main .section-1 .tbl .tbl-info {
     padding-top: 55px;
 }
 
-main .section-1 .tbl{ 
-    border:1px solid #d0d0d3;
+main .section-1 .tbl {
+    border: 1px solid #d0d0d3;
     width: calc(100% / 3 - 50px);
     margin: 0 25px;
 
-    
-}
-main .section-1 .tbl .tbl-menu{
-    text-align: center;
-    padding: 10px;
-    border-bottom:1px solid #d0d0d3;
+
 }
 
-main .section-1 .tbl .tbl-type .btn{
-    margin-top:55px;
+main .section-1 .tbl .tbl-menu {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+main .section-1 .tbl .tbl-type .btn {
+    margin-top: 55px;
     margin-bottom: 40px;
     text-align: center;
     width: 100%;
 }
-main .section-1 .tbl .tbl-type{
+
+main .section-1 .tbl .tbl-type {
     padding: 40px 25px 55px 25px;
 }
 
-main .section-1 .tbl-type hr{
+main .section-1 .tbl-type hr {
     width: 50px;
-    margin:55px 0 45px 0;
+    margin: 55px 0 45px 0;
 }
 
 
-main .section-1 .tbl-type li{
+main .section-1 .tbl-type li {
     margin: 15px 0;
 }
-main .section-1 .tbl-type li i{
+
+main .section-1 .tbl-type li i {
     padding-right: 10px;
 }
 
-main .section-1 .tbl .tbl-type .check i{
-    color:  #0061ff;
+main .section-1 .tbl .tbl-type .check i {
+    color: #0061ff;
 }
 
-main .section-1 .tbl-4{
+main .section-1 .tbl-4 {
     flex-grow: 1;
     margin-top: 40px;
+    width: 100%;
 }
+
+main .section-1 .tbl-4 .tbl-content {
+    width: 100%;
+}
+
+main .section-1 .tbl-4 .tbl-type {
+    width: 70%;
+}
+
+main .section-1 .tbl-4 .tbl-content> .btn {
+    width: 30%;
+    padding: 40px 25px 0 25px;
+
+}
+
+main .section-1 .tbl-4 .primary-btn {
+    width: 100%;
+
+}
+
 
 
 /* 
@@ -247,56 +287,61 @@ main .section-1 .tbl-4{
 Sez - 2
 *****************
 */
-main .section-2{
+main .section-2 {
     margin-top: 150px;
-        justify-content: center;
+    justify-content: center;
 }
 
-main .section-2 .container-small{
-    justify-content: space-between; 
-    
+main .section-2 .container-small {
+    justify-content: space-between;
+
 }
 
-.section-2 .img{
+.section-2 .img {
     width: calc(100% * 2 / 3);
     margin-right: 50px;
 }
 
-main .section-2 .container-small .text{
-    width:calc(100% / 3);
+main .section-2 .container-small .text {
+    width: calc(100% / 3);
 }
 
-.section-2 .container-small .img img{
+.section-2 .container-small .img img {
     width: 100%;
     display: block;
 }
-main .section-2 .container-small .text{
+
+main .section-2 .container-small .text {
     padding: 60px 60px 0 0;
 }
 
-main .section-2 .container-small .text h3{
-   padding-bottom: 30px; 
+main .section-2 .container-small .text h3 {
+    padding-bottom: 30px;
 }
-main .section-2 .container-small .text .btn{
+
+main .section-2 .container-small .text .btn {
     margin-top: 30px;
 }
+
 /* sez - 3 */
 
-main .section-3 .container-small .sez-3-table{
- flex-wrap: wrap;
- margin-left: -25px;
- margin-right: -25px;
+main .section-3 .container-small .sez-3-table {
+    flex-wrap: wrap;
+    margin-left: -25px;
+    margin-right: -25px;
 }
-.container-small .sez-3-table .tbl{
+
+.container-small .sez-3-table .tbl {
     width: calc(100% / 3 - 50px);
     margin: 15px 25px;
 }
-main .section-3 .container-small .tbl-img img{
+
+main .section-3 .container-small .tbl-img img {
     width: 100%;
     display: block;
-} 
+}
 
-.sez-3-table .tbl-info h3{
+.sez-3-table .tbl-info h3 {
     padding-bottom: 40px;
     padding-top: 15px;
 }
