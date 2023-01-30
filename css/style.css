@@ -31,7 +31,6 @@ a {
 .btn {
     border: none;
     padding: 10px 15px;
-
 }
 
 .primary-btn {
@@ -44,7 +43,6 @@ a {
     color: black;
     padding: 10px 50px;
     border: 1px solid black;
-
 }
 
 .visible-link {
@@ -113,7 +111,6 @@ header ul {
 header .list-nav li {
     display: flex;
     align-items: center;
-
     height: 100%;
     padding: 0 20px;
 }
@@ -141,13 +138,11 @@ Main
 main .jumbotron .container-big {
     position: relative;
     top: 70px;
-
 }
 
 main .container-big .main-title {
     width: 100%;
     padding: 50px 0 75px 0;
-
 }
 
 main .container-big .main-info {
@@ -186,7 +181,6 @@ main .section-1,
 main .section-3 {
     margin-top: 170px;
     justify-content: center;
-
 }
 
 main .section-1 .tbl .tbl-menu i {
@@ -280,12 +274,10 @@ main .section-1 .tbl-4 .tbl-type {
 main .section-1 .tbl-4 .tbl-content>.btn {
     width: 30%;
     padding: 40px 25px 0 25px;
-
 }
 
 main .section-1 .tbl-4 .primary-btn {
     width: 100%;
-
 }
 
 
@@ -302,7 +294,6 @@ main .section-2 {
 
 main .section-2 .container-small {
     justify-content: space-between;
-
 }
 
 .section-2 .img {
@@ -368,11 +359,11 @@ main .section-4 {
     margin-top: 210px;
     flex-wrap: wrap;
 }
-main .section-4 .container-small:first-child {
+main .section-4 .container-small.text {
     margin-bottom: 155px;
 }
 
-main .section-4 .container-small .container-small > h2 {
+main .section-4 .container-small > h2 {
     width: 70%;
     padding-bottom: 75px;
 }
@@ -390,7 +381,6 @@ main .section-4 .sponsors .tbl {
     flex-wrap: wrap;
     width: 100%;
     background-color: rgb(133, 133, 133);
-
 }
 
 main .section-4 .sponsors .tbl-4 {
@@ -399,7 +389,6 @@ main .section-4 .sponsors .tbl-4 {
     width: 100%;
     justify-content: center;
     align-items: center;
-
 }
 
 main .section-4 .sponsors .tbl-loghi,
@@ -409,13 +398,11 @@ main .section-4 .sponsors .tbl-middle {
 
 main .section-4 .sponsors .tbl-loghi {
     flex-wrap: wrap;
-
 }
 
 main .section-4 .sponsors .tbl-middle {
     background-color: #f5f5f5;
     padding: 50px 50px;
-
 }
 
 main .section-4 .sponsors .tbl-middle img {
@@ -439,18 +426,18 @@ main .section-4 .sponsors .tbl .tbl-loghi .container {
     filter: invert(100%);
 }
 
-main .section-4 .sponsors .tbl .tbl-content {
+main .section-4 .sponsors .tbl-4 .tbl-content {
     justify-content: center;
     align-items: flex-start;
-
 }
 
-.section-4 .sponsors .tbl .tbl-content .tbl-text {
-    width: 70%;
+.section-4 .sponsors .tbl-4 .tbl-content .tbl-text {
+    width: 60%;
 }
 
-.section-4 .sponsors .tbl .tbl-content .btn {
-    width: 30%;
+.section-4 .sponsors .tbl-4 .tbl-content .tbl-btn {
+    width: 40%;
+    justify-content: flex-end;
 }
 
 .section-4 .sponsors .tbl .tbl-content .secondary-btn {
@@ -467,31 +454,51 @@ LOGHI
 #designit{
     background-color:#a2d39b;
 }
-
 #asu{
     background-color: #61082b;
 }
-
 #uniflorida{
     background-color: #0093ce;
 }
-
 #toops{
     background-color: #ff1c1c;
 }
-
 #bicycle{
     background-color:#d5001f ;
 }
-
 #hearst_corp{
     background-color:#b4d0e7 ;
 }
-
 #lonely_planet{
     background-color:#0d2481 ;
 }
-
 #clear_channel{
     background-color:#ffd830 ;
+}
+
+/* 
+*****************
+sez - 5 
+*****************
+*/
+main .section-5{
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+main .section-5 .container-small h2{
+    padding: 165px 0 70px 0;
+}
+
+main .section-5 .faq{
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .section-5 .faq h5{
+    padding: 45px 0 45px 0;
+}
+
+main .section-5 .faq i{
+    padding-right: 50px;
 }
