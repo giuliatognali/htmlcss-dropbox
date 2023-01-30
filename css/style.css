@@ -372,7 +372,7 @@ main .section-4 .container-small:first-child {
     margin-bottom: 155px;
 }
 
-main .section-4 .container-small h2 {
+main .section-4 .container-small .container-small > h2 {
     width: 70%;
     padding-bottom: 75px;
 }
@@ -380,19 +380,20 @@ main .section-4 .container-small h2 {
 main .section-4 .container-small .tbl-text h2 {
     color: #61082b;
 }
-main .section-4 .fullscreen {
+main .section-4 .sponsors {
     width: 100vw;
-    height: calc(100vh - 80px);
+/*     height: calc(100vh - 80px); */
+    height: 100vh;
 }
 
-main .section-4 .fullscreen .tbl {
+main .section-4 .sponsors .tbl {
     flex-wrap: wrap;
-    width: inherit;
+    width: 100%;
     background-color: rgb(133, 133, 133);
 
 }
 
-main .section-4 .fullscreen .tbl-4 {
+main .section-4 .sponsors .tbl-4 {
     flex-grow: 1;
     background-color: #b4d0e7;
     width: 100%;
@@ -401,23 +402,23 @@ main .section-4 .fullscreen .tbl-4 {
 
 }
 
-main .section-4 .fullscreen .tbl-loghi,
-main .section-4 .fullscreen .tbl-middle {
+main .section-4 .sponsors .tbl-loghi,
+main .section-4 .sponsors .tbl-middle {
     width: calc(100% / 3);
 }
 
-main .section-4 .fullscreen .tbl-loghi {
+main .section-4 .sponsors .tbl-loghi {
     flex-wrap: wrap;
 
 }
 
-main .section-4 .fullscreen .tbl-middle {
+main .section-4 .sponsors .tbl-middle {
     background-color: #f5f5f5;
     padding: 50px 50px;
 
 }
 
-main .section-4 .fullscreen .tbl-middle img {
+main .section-4 .sponsors .tbl-middle img {
     width: 50%;
 }
 
@@ -426,7 +427,7 @@ main .section-4 .tbl-middle hr {
     margin: 55px 0 45px 0;
 }
 
-main .section-4 .fullscreen .tbl .tbl-loghi .container {
+main .section-4 .sponsors .tbl .tbl-loghi .container {
     justify-content: center;
     align-items: center;
     width: 50%;
@@ -435,23 +436,62 @@ main .section-4 .fullscreen .tbl .tbl-loghi .container {
 
 .tbl-loghi .container img {
     width:40%;
+    filter: invert(100%);
 }
 
-main .section-4 .fullscreen .tbl .tbl-content {
+main .section-4 .sponsors .tbl .tbl-content {
     justify-content: center;
     align-items: flex-start;
-    background-color: darkorchid;
 
 }
 
-.section-4 .fullscreen .tbl .tbl-content .tbl-text {
+.section-4 .sponsors .tbl .tbl-content .tbl-text {
     width: 70%;
 }
 
-.section-4 .fullscreen .tbl .tbl-content .btn {
+.section-4 .sponsors .tbl .tbl-content .btn {
     width: 30%;
 }
 
-.section-4 .fullscreen .tbl .tbl-content .secondary-btn {
+.section-4 .sponsors .tbl .tbl-content .secondary-btn {
     border: none;
+}
+
+
+
+/* 
+*****************
+LOGHI
+*****************
+*/
+#designit{
+    background-color:#a2d39b;
+}
+
+#asu{
+    background-color: #61082b;
+}
+
+#uniflorida{
+    background-color: #0093ce;
+}
+
+#toops{
+    background-color: #ff1c1c;
+}
+
+#bicycle{
+    background-color:#d5001f ;
+}
+
+#hearst_corp{
+    background-color:#b4d0e7 ;
+}
+
+#lonely_planet{
+    background-color:#0d2481 ;
+}
+
+#clear_channel{
+    background-color:#ffd830 ;
 }
