@@ -502,3 +502,23 @@ main .section-5 .faq h5{
 main .section-5 .faq i{
     padding-right: 50px;
 }
+/* 
+***********
+Footer 
+***********
+*/
+footer{
+    background-color: black;
+    color: #fff;
+
+}
+footer .container-big{
+    height: 500px;
+    align-items: center;
+    background-color: #5b5b59;
+    margin: auto;
+}
+
+footer .container-big .list{
+    justify-content: center;
+}
