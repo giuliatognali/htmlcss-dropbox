@@ -51,11 +51,11 @@ a {
 }
 
 .container-big {
-    width: 60vw;
+    max-width: 1180px;
 }
 
 .container-small {
-    width: 50%;
+    max-width: 1000px;
     justify-content: center;
 }
 
@@ -72,6 +72,7 @@ body {
 
 h1 {
     font-size: 77px;
+    font-weight: 800;
 }
 
 h2 {
@@ -159,7 +160,7 @@ main .container-big .main-info .big-col {
 }
 
 main .container-big .big-col img {
-    width: 100%;
+    max-width: 100%;
 }
 
 main .container-big .main-info .small-col .btn {
@@ -355,6 +356,7 @@ Sez - 4
 *****************
 */
 main .section-4 {
+    display: none;
     justify-content: center;
     margin-top: 210px;
     flex-wrap: wrap;
@@ -394,6 +396,7 @@ main .section-4 .sponsors .tbl-4 {
 main .section-4 .sponsors .tbl-loghi,
 main .section-4 .sponsors .tbl-middle {
     width: calc(100% / 3);
+    height: calc(100vw /);
 }
 
 main .section-4 .sponsors .tbl-loghi {
@@ -418,12 +421,11 @@ main .section-4 .sponsors .tbl .tbl-loghi .container {
     justify-content: center;
     align-items: center;
     width: 50%;
-    background-color: aqua;
 }
 
 .tbl-loghi .container img {
     width:40%;
-    filter: invert(100%);
+    filter: invert(1);
 }
 
 main .section-4 .sponsors .tbl-4 .tbl-content {
@@ -443,8 +445,6 @@ main .section-4 .sponsors .tbl-4 .tbl-content {
 .section-4 .sponsors .tbl .tbl-content .secondary-btn {
     border: none;
 }
-
-
 
 /* 
 *****************
@@ -484,10 +484,13 @@ sez - 5
 main .section-5{
     justify-content: center;
     margin-bottom: 150px;
+    margin-top: 165px;
 }
 
+
 main .section-5 .container-small h2{
-    padding: 165px 0 70px 0;
+    padding-bottom: 70px;
+    width: 100%;
 }
 
 main .section-5 .faq{
@@ -510,9 +513,8 @@ Footer
 footer{
     background-color: black;
     color: #fff;
-
-
 }
+
 footer .container-big{
     margin: auto;
 }
@@ -535,7 +537,7 @@ footer .container-big .list h4{
     padding: 50px 0;
     justify-content: flex-start;
     align-items: center;
-
+    margin-left: -10px;
 }
 .footer-bottom i{
     padding: 0 10px;
