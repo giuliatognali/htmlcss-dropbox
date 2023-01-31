@@ -72,6 +72,10 @@ a {
     width: 30%;
 }
 
+.w-70 {
+    width: 70%;
+}
+
 /* 
 *************
 Typo
@@ -140,7 +144,7 @@ header .list-nav li {
 }
 
 header .list-nav li img {
-    width: 100%;
+    max-width: 100%;
 }
 
 header .list-nav li:hover {
@@ -171,10 +175,6 @@ main .container-big .main-title {
 main .container-big .main-info {
     justify-content: space-between;
     align-items: flex-start;
-}
-
-main .container-big .main-info .big-col {
-    width: 70%;
 }
 
 main .container-big .big-col img {
@@ -294,10 +294,6 @@ main .section-1 .tbl-4 .tbl-content {
     width: 100%;
 }
 
-main .section-1 .tbl-4 .tbl-type {
-    width: 70%;
-}
-
 main .section-1 .tbl-4 .tbl-content>.btn {
     padding: 40px 25px 0 25px;
 }
@@ -323,16 +319,11 @@ main .section-2 .container-small {
 }
 
 .section-2 .img {
-    width: calc(100% * 2 / 3);
     margin-right: 50px;
 }
 
-main .section-2 .container-small .text {
-    width: calc(100% / 3);
-}
-
 .section-2 .container-small .img img {
-    width: 100%;
+    max-width: 100%;
     display: block;
 }
 
@@ -366,7 +357,7 @@ main .section-3 .container-small .sez-3-table {
 }
 
 main .section-3 .container-small .tbl-img img {
-    width: 100%;
+    max-width: 100%;
     display: block;
 }
 
@@ -537,15 +528,15 @@ main .section-5 .list hr{
 main .section-5 .faq i {
     padding-right: 50px;
 }
-main .section-5 .answer, #chevron-up {
+main .section-5 .answer, .fa-chevron-up{
 display: none;
 }
 
 main .section-5 .faq:hover .answer,
-main .section-5 .faq:hover #chevron-up{
+main .section-5 .faq:hover .fa-chevron-up{
     display: block;
 }
-main .section-5 .faq:hover #chevron-down{
+main .section-5 .faq:hover .fa-chevron-down{
     display: none;
 }
 
