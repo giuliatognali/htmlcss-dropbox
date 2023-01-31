@@ -55,7 +55,8 @@ a {
 }
 
 .container-small {
-    max-width: 1000px;
+    
+    width: 50%;
     justify-content: center;
 }
 
@@ -356,7 +357,7 @@ Sez - 4
 *****************
 */
 main .section-4 {
-    display: none;
+
     justify-content: center;
     margin-top: 210px;
     flex-wrap: wrap;
@@ -396,7 +397,6 @@ main .section-4 .sponsors .tbl-4 {
 main .section-4 .sponsors .tbl-loghi,
 main .section-4 .sponsors .tbl-middle {
     width: calc(100% / 3);
-    height: calc(100vw /);
 }
 
 main .section-4 .sponsors .tbl-loghi {
@@ -488,7 +488,7 @@ main .section-5{
 }
 
 
-main .section-5 .container-small h2{
+main .section-5 .container-small > h2{
     padding-bottom: 70px;
     width: 100%;
 }
