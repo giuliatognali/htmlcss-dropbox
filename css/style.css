@@ -376,32 +376,13 @@ main .section-3 .container-small .tbl-img img {
 }
 
 /* 
-*****************
-Sez - 4
-*****************
-*/
-main .section-4 {
-    justify-content: center;
-    margin-top: 210px;
-    flex-wrap: wrap;
-}
-
-main .section-4 .container-small.text {
-    margin-bottom: 155px;
-}
-
-main .section-4 .container-small>h2 {
-    width: 70%;
-    padding-bottom: 75px;
-}
-
-
-/* 
 ************
-SEZ Loghi
+SEZ 4 Loghi
 ************ */
 
 main .section-loghi {
+    justify-content: center;
+    margin-top: 210px;
     flex-wrap: wrap;
 }
 
@@ -409,6 +390,15 @@ main .section-loghi {
     width: calc(100% / 3);
     height: calc(100vw / 3);
     flex-wrap: wrap;
+}
+
+main .section-loghi .container-small.text {
+    margin-bottom: 155px;
+}
+
+main .section-loghi .container-small>h2 {
+    width: 70%;
+    padding-bottom: 75px;
 }
 
 .section-loghi .container-sponsors .box-middle {
@@ -524,23 +514,39 @@ main .section-5 {
     margin-top: 165px;
 }
 
-
 main .section-5 .container-small>h2 {
     padding-bottom: 70px;
     width: 100%;
 }
 
-main .section-5 .faq {
+main .section-5 .question {
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-main .section-5 .faq h5 {
-    padding: 45px 0 45px 0;
+main .section-5 .faq h5,
+main .section-5 .answer h5  {
+    padding: 25px 0;
+}
+
+main .section-5 .list hr{
+    margin: 20px 0;
 }
 
 main .section-5 .faq i {
     padding-right: 50px;
+}
+main .section-5 .answer, #chevron-up {
+display: none;
+}
+
+main .section-5 .faq:hover .answer,
+main .section-5 .faq:hover #chevron-up{
+    display: block;
+}
+main .section-5 .faq:hover #chevron-down{
+    display: none;
 }
 
 /* 
